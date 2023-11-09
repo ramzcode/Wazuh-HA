@@ -1,0 +1,25 @@
+nodes:
+  # Indexer server nodes
+  indexer:
+    - name: node-1
+      ip: 172.31.25.141
+    - name: node-2
+      ip: 172.31.17.233
+
+  # Wazuh server nodes
+  # Use node_type only with more than one Wazuh manager
+  server:
+    - name: node-3
+      ip: 172.31.17.59
+      node_type: master
+    - name: node-4
+      ip: 172.31.20.68
+      node_type: worker
+    - name: node-5
+      ip: 172.31.20.6
+      node_type: worker
+
+  # Dashboard node
+  dashboard:
+    - name: node-6
+      ip: 172.31.25.18
