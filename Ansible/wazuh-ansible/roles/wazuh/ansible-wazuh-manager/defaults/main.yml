@@ -1,7 +1,7 @@
 ---
 wazuh_manager_version: 4.6.0
 
-wazuh_manager_fqdn: "wazuh-server"
+wazuh_manager_fqdn: "wazuh.cloudmatiq.com'"
 wazuh_manager_package_state: present
 
 # Custom packages installation
@@ -383,7 +383,7 @@ wazuh_manager_authd:
     disconnected_time: '1h'
     after_registration_time: '1h'
   purge: 'yes'
-  use_password: 'no'
+  use_password: 'yes'
   ciphers: 'HIGH:!ADH:!EXP:!MD5:!RC4:!3DES:!CAMELLIA:@STRENGTH'
   ssl_agent_ca: null
   ssl_verify_host: 'no'

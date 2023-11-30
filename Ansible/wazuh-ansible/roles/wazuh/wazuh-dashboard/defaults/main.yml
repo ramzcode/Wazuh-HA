@@ -20,12 +20,12 @@ wazuh_api_credentials:
   - id: "default"
     url: "https://localhost"
     port: 55000
-    username: "wazuh"
-    password: "wazuh"
+    username: "wazuhapiadmin"
+    password: "Zaq@123edC@2023"
 
 # Dashboard Security
 dashboard_security: true
-indexer_admin_password: changeme
-dashboard_user: kibanaserver
-dashboard_password: changeme
+indexer_admin_password: Zaq@123edC@2023
+dashboard_user: cmadmin
+dashboard_password: Zaq@123edC@2023
 local_certs_path: "{{ playbook_dir }}/indexer/certificates"

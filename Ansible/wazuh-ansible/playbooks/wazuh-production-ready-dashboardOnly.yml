@@ -14,6 +14,6 @@
           - id: default
             url: https://{{ hostvars.manager.private_ip }}
             port: 55000
-            username: custom-user
-            password: SecretPassword1!
+            username: "wazuhapiadmin"
+            password: "Zaq@123edC@2023" 
         ansible_shell_allow_world_readable_temp: true
